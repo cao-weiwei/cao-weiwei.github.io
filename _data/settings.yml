@@ -9,10 +9,12 @@ disqus:
 menu: 
   - name: Featured Projects
     submenu:
-      - name: MicroBam
-        link: /projects/microbam
-      - name: OurLegacy
-        link: /projects/ourlegacy
+      - name: WahSearch
+        link: /projects/WahSearch
+      - name: TwitterSentimentAnaylsis
+        link: /projects/SESentimentAnaylsis
+      - name: MoiveBoxPrediction
+        link: /projects/MoiveBoxPrediction
   - name: Posts
     link: /
   - name: Tags
