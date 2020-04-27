@@ -1,7 +1,7 @@
 # Change 'comments' to true for Disqus comments
 disqus:
   comments: true
-  disqus_shortname: 'apham'
+  disqus_shortname: 'weiwei'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 # google-ID: 'UA-91332049-1'
@@ -11,10 +11,10 @@ menu:
     submenu:
       - name: WahSearch
         link: /projects/WahSearch
-      - name: TwitterSentimentAnaylsis
-        link: /projects/SESentimentAnaylsis
-      - name: MoiveBoxPrediction
-        link: /projects/MoiveBoxPrediction
+#       - name: TwitterSentimentAnaylsis
+#         link: /projects/SESentimentAnaylsis
+#       - name: MoiveBoxPrediction
+#         link: /projects/MoiveBoxPrediction
   - name: Posts
     link: /
   - name: Tags
