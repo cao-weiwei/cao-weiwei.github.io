@@ -18,13 +18,14 @@ name: Weiwei's Tech Blog
 description: 
   This is a Tech blog of Weiwei, who is a curious person enjoying figuring out the building blocks of the world, and rearranging them to build something even better. Currently I'm a master of CS student, I believe my career is developing software, and my life is adventuring.
 baseurl: "" # the subpath of your site, e.g. /blog
-github_username:  alainpham
+github_username:  cao-weiwei
 
 # jekyll-paginate configuration
 paginate: 10
 
 # Build settings
 markdown: kramdown
+toc_levels: 3
 #theme: minima
 plugins:
   - jekyll-feed
@@ -36,7 +37,7 @@ exclude:
 include: ["_pages"]
 permalink: /posts/:title/
 excerpt_separator: <!--more-->
-# author: https://www.linkedin.com/in/weiwei-cao-2a8abb192/
+# author: https://www.linkedin.com/in/weiwei-cao/
 
 host: 0.0.0.0
 
