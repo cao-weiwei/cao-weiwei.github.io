@@ -7,9 +7,7 @@ tags: [linked list, data structure, algorithm]
 github: "https://github.com/cao-weiwei/"
 noimage: true
 ---
-
-
-## Single Linked List
+## 0Single Linked List
 
 ### 1. Strcuture
 Below is a simple depiction of a single linked list:
