@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "post"
+title: "Single Linked List in Python"
 comments: true
 categories: data structure and algorithms
-tags: [linked list,data structure, algorithm]
+tags: [linked list, data structure, algorithm]
 github: "https://github.com/cao-weiwei/"
 noimage: true
 ---
