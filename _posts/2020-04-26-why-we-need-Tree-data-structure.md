@@ -2,8 +2,8 @@
 excerpt_separator: <!--more-->
 layout: default
 title: "Why we need Tree Data Structure?"
-date: 2020-04-26 05:00:00 +0200
-published: 2020-04-26 05:00:00 +0200
+date: 2020-04-26 05:00:00 -0400
+published: 2020-04-26 05:00:00 -0400
 comments: true
 categories: development
 tags: [tree, data structure, algorithm]
@@ -45,5 +45,5 @@ As we known, tree is a kind of data structure, which contains a set of nodes con
 
 
 
-## 4. Review and Comparison
+## Review and Comparison
 
