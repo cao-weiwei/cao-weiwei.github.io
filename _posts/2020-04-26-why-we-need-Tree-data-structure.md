@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "draft"
+title: "Why we need Tree Data Structure?"
 date: 2020-04-26 05:00:00 +0200
 published: 2020-04-26 05:00:00 +0200
 comments: true
 categories: development
-tags: [Tree, Data Structure, Algorithm]
+tags: [tree, data structure, algorithm]
 github: "https://github.com/cao-weiwei/"
 noimage: true
 ---
