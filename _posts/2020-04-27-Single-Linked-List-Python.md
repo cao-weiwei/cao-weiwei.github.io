@@ -31,7 +31,7 @@ Every linked list consists of nodes, and each node has two components:
 - If we are given the exact pointer after which we have to insert another node or delete a node, it will be a constant-time operation.
 - However, the insertion/deletion operation is in `O(n)` operations for insertion/deletion of value at the array. Due to the shifting of the elements, the time complexity is `O(n)`.
 
-#### 2). Accessing Elements
+#### Accessing Elements
 
 - Accessing an n-th element in a linked list is an `O(n)` operation given that you have access to the head node of the linked list. 
 - It is a constant time operation to access elements in arrays, if given an array and an index.
