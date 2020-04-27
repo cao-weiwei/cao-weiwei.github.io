@@ -1,3 +1,13 @@
+---
+layout: default
+title: "post"
+comments: true
+categories: data structure and algorithms
+tags: [linked list,data structure, algorithm]
+github: "https://github.com/cao-weiwei/"
+noimage: true
+---
+
 
 ## Single Linked List
 
