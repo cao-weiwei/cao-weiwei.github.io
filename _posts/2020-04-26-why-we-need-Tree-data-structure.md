@@ -1,5 +1,5 @@
 ---
-excerpt_separator: 
+excerpt_separator: <!--more-->
 layout: default
 title: "Why we need Tree Data Structure?"
 date: 2020-04-26 05:00:00 +0200
