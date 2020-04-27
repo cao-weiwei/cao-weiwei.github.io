@@ -5,9 +5,10 @@ comments: true
 categories: data structure and algorithms
 tags: [linked list, data structure, algorithm]
 github: "https://github.com/cao-weiwei/"
+excerpt_separator: <!--more-->
 noimage: true
 ---
-## 0Single Linked List
+## Single Linked List
 
 ### 1. Strcuture
 Below is a simple depiction of a single linked list:
@@ -21,7 +22,7 @@ Every linked list consists of nodes, and each node has two components:
     - The next component in every node is **a pointer** that points from one node to another.
 - head
     - The start of the linked list is referred to as the head
-
+<!--more-->
 
 ### 2. Operations
 
