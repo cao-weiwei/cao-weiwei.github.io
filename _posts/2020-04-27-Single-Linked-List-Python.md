@@ -10,7 +10,7 @@ noimage: true
 ---
 ## Single Linked List
 
-### 1. Strcuture
+### Strcuture
 Below is a simple depiction of a single linked list:
 <img src="/Users/caoweiwei/Library/Application Support/typora-user-images/image-20191218165948878.png" alt="image-20191218165948878" style="zoom:33%;" />
 
@@ -24,9 +24,9 @@ Every linked list consists of nodes, and each node has two components:
     - The start of the linked list is referred to as the head
 <!--more-->
 
-### 2. Operations
+### Operations
 
-#### 1). Insertion/ Deletion
+#### Insertion/ Deletion
 
 - If we are given the exact pointer after which we have to insert another node or delete a node, it will be a constant-time operation.
 - However, the insertion/deletion operation is in `O(n)` operations for insertion/deletion of value at the array. Due to the shifting of the elements, the time complexity is `O(n)`.
