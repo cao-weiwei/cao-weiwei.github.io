@@ -10,19 +10,16 @@ tags: [tree, data structure, algorithm]
 github: "https://github.com/cao-weiwei/"
 noimage: true
 ---
-Excerpt
-<!--more-->
-Out-of-excerpt
 
 # Why we need Tree Data Structure?
 
-## 1. Why Choose Trees
+## Why Choose Trees
 
-### 1.1 Definition
+### Definition
 
 As we known, tree is a kind of data structure, which contains a set of nodes connected by directed or undirected.  It's a *non-linear* data structure in logical, compared to arrays, or string.
 
-### 1.2 Comparison with other data structure
+### Comparison with other data structure
 
 - Basic Data Structure
 
@@ -38,11 +35,11 @@ As we known, tree is a kind of data structure, which contains a set of nodes con
   - Space, we need eastimate how many items saved in the array for initialization hash table, and extra space used since the collision.  
   - Unsorted, the elements stored in hash table are unsorted, in some circumstance is very not convenient .
 
-## 2. Binary Trees
+## Binary Trees
 
 
 
-## 3. Binary Search Tree
+## Binary Search Tree
 
 
 
