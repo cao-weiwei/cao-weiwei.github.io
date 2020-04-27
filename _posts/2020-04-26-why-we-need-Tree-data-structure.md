@@ -1,5 +1,5 @@
 ---
-excerpt_separator: <!--more-->
+excerpt_separator: 
 layout: default
 title: "Why we need Tree Data Structure?"
 date: 2020-04-26 05:00:00 +0200
@@ -18,7 +18,7 @@ noimage: true
 ### Definition
 
 As we known, tree is a kind of data structure, which contains a set of nodes connected by directed or undirected.  It's a *non-linear* data structure in logical, compared to arrays, or string.
-
+<!--more-->
 ### Comparison with other data structure
 
 - Basic Data Structure
