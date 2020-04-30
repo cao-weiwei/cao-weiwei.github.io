@@ -1,13 +1,13 @@
-```yaml
+---
 layout: default
 title: Build a snake game in Python-1
 date: 2020-04-29 23:30:00 -0500
 published: 2020-04-29 23:30:00 -0500
 comments: true
-tags: [Python, pygame, curses, game]
+tags: [Python, pygame, curses]
 github: "https://github.com/cao-weiwei/"
 noimage: true
-```
+---
 
 ## Introduction
 
@@ -17,25 +17,19 @@ How are you guys😀! In the next following days, I'm going to introduce an inte
 
 Acutally, this iead is inspired by a youtuber and he did a snake game using `curses` library which is native supported by `Python`. You can check it out here 👉[<u>Creating a Snake game with Python in under 5 minutes</u>](https://www.youtube.com/watch?v=rbasThWVb-c&feature=youtu.be)👈. I followed his code and made it, below is the outcome.
 
-<img src="/Users/caoweiwei/Documents/14.Repositories/0_Github/cao-weiwei.github.io/assets/images/posts/Build_a_Snake_Game_in_Python_Day_01/snake_01_curse.gif" alt="snake_01_curse" style="zoom:90%;" />
+<img src="assets/images/posts/Build_a_Snake_Game_in_Python_Day_01/snake_01_curse.gif" alt="snake_01_curse" style="zoom:90%;" />
 
 Honestly, I was catched by the keywords '5 minutes', it took me more than 5 minutes actually. However, I should say after completing this naive game my passion was ignited and I thought it's a time for implementing a beautiful version to make me feel happy. As a result, I've just achieved this game in first version, and it will be explained in detail at next days. Here is the glance of the game interface.
 
-<img src="/Users/caoweiwei/Documents/14.Repositories/0_Github/cao-weiwei.github.io/assets/images/posts/Build_a_Snake_Game_in_Python_Day_01/snake_02_1st_glance.gif" alt="snake_02_1st_glance" style="zoom:80%;" />
+<img src="assets/images/posts/Build_a_Snake_Game_in_Python_Day_01/snake_02_1st_glance.gif" alt="snake_02_1st_glance" style="zoom:80%;" />
 
 I intend to introduce the development in following steps:
-
-Day1: basic idead about `curses`
-
-Day2: how to use `curses` to implement the game
-
-Day3: let's analyze the game in deep using OOP ideas
-
-Day4: learn pygame to draw objects and get commands
-
-Day5: implement the key classes of the game
-
-Day6: add background music and images to make it better
+- Day1: basic idead about `curses`
+- Day2: how to use `curses` to implement the game
+- Day3: let's analyze the game in deep using OOP ideas
+- Day4: learn pygame to draw objects and get commands
+- Day5: implement the key classes of the game
+- Day6: add background music and images to make it better
 
 Now, let's jump into the `curses` to start the journey.
 
