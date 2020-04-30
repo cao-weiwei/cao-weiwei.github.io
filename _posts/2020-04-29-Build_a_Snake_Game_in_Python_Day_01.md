@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Build a snake game in Python-1
+title: Build a snake game in Python Day-1
 date: 2020-04-29 23:30:00 -0500
 published: 2020-04-29 23:30:00 -0500
 comments: true
@@ -17,11 +17,11 @@ How are you guys😀! In the next following days, I'm going to introduce an inte
 
 Acutally, this iead is inspired by a youtuber and he did a snake game using `curses` library which is native supported by `Python`. You can check it out here 👉[<u>Creating a Snake game with Python in under 5 minutes</u>](https://www.youtube.com/watch?v=rbasThWVb-c&feature=youtu.be)👈. I followed his code and made it, below is the outcome.
 
-<img src="assets/images/posts/Build_a_Snake_Game_in_Python_Day_01/snake_01_curse.gif" alt="snake_01_curse" style="zoom:90%;" />
+<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_01/snake_01_curse.gif" alt="snake_01_curse" style="zoom:90%;" />
 
 Honestly, I was catched by the keywords '5 minutes', it took me more than 5 minutes actually. However, I should say after completing this naive game my passion was ignited and I thought it's a time for implementing a beautiful version to make me feel happy. As a result, I've just achieved this game in first version, and it will be explained in detail at next days. Here is the glance of the game interface.
 
-<img src="assets/images/posts/Build_a_Snake_Game_in_Python_Day_01/snake_02_1st_glance.gif" alt="snake_02_1st_glance" style="zoom:80%;" />
+<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_01/snake_02_1st_glance.gif" alt="snake_02_1st_glance" style="zoom:80%;" />
 
 I intend to introduce the development in following steps:
 - Day1: basic idead about `curses`
