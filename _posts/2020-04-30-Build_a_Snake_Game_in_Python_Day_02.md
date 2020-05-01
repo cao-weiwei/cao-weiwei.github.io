@@ -17,7 +17,7 @@ After knowing the building blocks of `curses`, let's jump onto our first version
 
 Maybe you will think that it seems too abstract for you to take actions to build such a game using the previous knowledge, and the scenarios might be familar with you, if someone told you how to draw a panda in 4 steps 🤨
 
-<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_02/01_how_to_drawa_panda_in_4_steps.png" alt="01_how_to_drawa_panda_in_4_steps" style="zoom:60%;" />
+<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_02/01_how_to_drawa_panda_in_4_steps.png" alt="01_how_to_drawa_panda_in_4_steps" style="zoom:40%;" />
 
 ## Analysis the snake game
 
