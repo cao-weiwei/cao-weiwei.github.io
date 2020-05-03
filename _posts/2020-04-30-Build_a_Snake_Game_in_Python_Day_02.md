@@ -9,8 +9,6 @@ github: "https://github.com/cao-weiwei/"
 noimage: true
 ---
 
-## Introduction
-
 After knowing the building blocks of `curses`, let's jump onto our first version of the snake game🧐. 
 
 <!--more-->
@@ -19,7 +17,7 @@ Maybe you will think that it seems too abstract for you to take actions to build
 
 <img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_02/01_how_to_drawa_panda_in_4_steps.png" alt="01_how_to_drawa_panda_in_4_steps" style="zoom:40%;" />
 
-## Analysis the snake game
+## Analyzing the snake game
 
 Exactly right, even we know all the ways how to use tools we cannot build a house without enough preparations ahead. Let's recall the last time you played the snake game, if you have no ideas about the game, just googling it😏.  Here are the major factors in this game:
 
