@@ -47,7 +47,7 @@ The above whole process can be drawn in a figure as:
 
 According to the process, I made mock-up of the interface.
 
-<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_03/02_snake_game_prototype.png" alt="02_snake_game_prototype" style="zoom:50%;" />
+<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_03/02_snake_game_prototype.png" alt="02_snake_game_prototype" style="zoom:35%;" />
 
 ## Identifying objects and defining relationships
 
@@ -67,7 +67,7 @@ As we knew, the most obvious objects in the game are the snake and the food. How
 
 Finally, based on previous analysis and objects we got, I made some UI of the game.
 
-<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_03/04_demo-ui.png" alt="04_demo-ui" style="zoom:60%;" />
+<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_03/04_demo-ui.png" alt="04_demo-ui" style="zoom:35%;" />
 
 Next, we'll jump onto the pygame, which is a most famous game development library in Python.
 
