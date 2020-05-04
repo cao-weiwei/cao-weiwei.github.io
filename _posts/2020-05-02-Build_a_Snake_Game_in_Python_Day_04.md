@@ -61,9 +61,7 @@ pygame.quit() # uninstall all pygame modules, and call it before the game ends
 
 We can simply think the whole process of a game as follow:
 
-<img src="/Users/caoweiwei/Library/Application Support/typora-user-images/image-20200503232632767.png" alt="image-20200503232632767" style="zoom:33%;" />
-
-
+<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_04/01_pygame_flow.png" alt="01_pygame_flow" style="zoom:33%;" />
 
 ## Understand the coordinates in the game
 
