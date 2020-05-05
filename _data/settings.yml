@@ -7,14 +7,16 @@ disqus:
 # google-ID: 'UA-91332049-1'
 
 menu: 
-  - name: Featured Projects
+  - name: Projects
     submenu:
       - name: SnakeGame
         link: https://github.com/cao-weiwei/Snake_Game_Python
-#       - name: TwitterSentimentAnaylsis
-#         link: /projects/SESentimentAnaylsis
-#       - name: MoiveBoxPrediction
-#         link: /projects/MoiveBoxPrediction
+      - name: SearchEngine
+        link: https://github.com/cao-weiwei/WahSearch
+      - name: TwitterSentimentAnaylsis
+        link: https://github.com/cao-weiwei/SESentimentAnaylsis
+      - name: ChinaTrainTicketsCralwer
+        link: https://github.com/cao-weiwei/12306query-tickets
   - name: Posts
     link: /
   - name: Tags
