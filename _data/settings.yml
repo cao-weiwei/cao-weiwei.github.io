@@ -10,7 +10,7 @@ menu:
   - name: Featured Projects
     submenu:
       - name: SnakeGame
-        link: /projects/snakegame
+        link: https://github.com/cao-weiwei/Snake_Game_Python
 #       - name: TwitterSentimentAnaylsis
 #         link: /projects/SESentimentAnaylsis
 #       - name: MoiveBoxPrediction
