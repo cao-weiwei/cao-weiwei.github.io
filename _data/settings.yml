@@ -9,8 +9,8 @@ disqus:
 menu: 
   - name: Featured Projects
     submenu:
-      - name: WahSearch
-        link: /projects/WahSearch
+      - name: SnakeGame
+        link: /projects/snakegame
 #       - name: TwitterSentimentAnaylsis
 #         link: /projects/SESentimentAnaylsis
 #       - name: MoiveBoxPrediction
