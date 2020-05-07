@@ -4,74 +4,72 @@ title: Build a snake game in Python Day-4
 date: 2020-05-03 23:00:00 -0400
 published: 2020-05-03 23:00:00 -0400
 comments: true
-tags: [Python, pygame, curses]
+tags: [Python, OOP]
 github: "https://github.com/cao-weiwei/"
 noimage: true
 ---
 
-Today, I'm going to introduce `pygame` in a brief way. The main idea of this post is not to explain the detials of the `pygame` but some basic ideas of gaming programming. Let's get started😃!
+😁A snake game could contains lots of features, if we want to improve the previous work, we must have clues about how to make progress🤔. Next we will use OOP ideas to make a fancy snake game.
 
 <!--more-->
 
-## How objects animate 
+Contrary to procedure-oriented programming where programs are designed as blocks of statements to manipulate data, object-oriented programming organizes the program to combine data and functionality and wrap it inside something called an “Object”🧐. 
 
-Gaming programming may have similarity with making animations, the core is not to make objects move literally but the way how we updating objects coordinates. 
+## OOP analysis and design
 
-- We draw objects on the surface and updating their positions to give us a kind of illusion to think the objects is alive. 
-- Another thing about to determin whether the snake is alive, to check the objects' coordinates to find whether there is overlapping, if there is intersection of different objects' coordinates, we can say they may dead since there is collision. 
+There is a structured approach for analyzing and designing a software product using OOP concepts. The most important thing is identifying the objects of the product and figuring out the relationships between each other. I'll explain the process of making the snake game as🥳:
 
-I think above is the key concepts we should understand for further programming🤓.
+1. Clarifying the requirements of snake game; 
+2. Drawing a diagram to show how the snake  game works;
+3. Identifying the objects and defining their relationships;
+4. Making a design of the game.
 
-## How to use `pygame`
+## Clarifying requirements
 
-Basically, there are three steps for making a game in `pygame`:
+🤓I'll focus on the following set of requirements while designing the snake game:
 
--  Initialize and quit a game
-- understand the coordinates in the game
-- keep game ongoing
+- At the screen, there is a welcome interface for users to wait for a further signal, users can click either 'start' button to start a game or 'quit' button to close the window.
+- If the user clicks the 'start' button, entering a new game:
+  - Food will be randomly put on the screen
+  - A snake appears on somewhere of the screen and moving from left to right by default
+  - The user whether presses arrow keys or not, the snake will keep moving
+  - Press arrow keys to change the next direction of snake movement
+  - Each time a piece of food is eaten, the snake's body length will increase by one, the user will get one point
+  - If the food is eaten by the snake, the system will put another food randomly on the screen
+  - The snake touches the wall or itself, the game ends
+- If the user clicks the 'quit' button, the game will be terminated immediately.  
 
-## Initialize and quit a game
+## Drawing process diagram and making prototype
 
-The first thing before making any actions is to  import the `pygame` package. 
+The above whole process can be drawn in a figure as:
 
-```python
-import pygame
-```
+<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_03/01_snake_game_flow.png" alt="01_snake_game_flow" style="zoom:60%;" />
 
-And then we need to initialize all the `pygame` modules:
+According to the process, I made mock-up of the interface.
 
-```python
-pygame.init() # initialize all pygame related modules
-```
+<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_03/02_snake_game_prototype.png" alt="02_snake_game_prototype" style="zoom:35%;" />
 
-After initializing all related modules, we should create a surface for showing the game. Here `pygame` providers a way to control the display window and screen. 
+## Identifying objects and defining relationships
 
-```python
-pygame.display.set_mode() # initialize a Surface to represent your drawing
-pygame.display.update() # update the screen
-```
+As we knew, the most obvious objects in the game are the snake and the food. How to identify others and develop their relationships are vital points for making this game. 
 
-The `display.set_mode()` function creates a new Surface object that represents the actual displayed graphics. Any drawing you do to this Surface will become visible on the monitor after you call `display.update()` method which allows  the screen to be updated
+**Board**: Everything in the game must be drawn or displayed on a board, like painting on canvas. And this board will contain a snake, food, and a score counter. It will initialize a game and end the game according to the conditions.
 
-Next is the game iteself. Once we terminate the game, modules have to be closed to clean up all resources that we used. It can be done very ease.
+**Snake**: A snake, in the game, actually is a list of coordinates. we have to know the start position and its length. For the snake, it can move on the screen and eat food. And sometimes, it may die due to collision with the border or itself.
 
-```python
-pygame.quit() # uninstall all pygame modules, and call it before the game ends
-```
+**Food**: As the same as the snake, it's also represented by a pair of coordinates on the screen. For the food, we should know whether it is eaten by the snake then we can draw another on the screen.
 
-We can simply think the whole process of a game as follow:
+**Button**: This is a kind of UI component to receive a start signal and a terminate signal from use.  
 
-<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_04/01_pygame_flow.png" alt="01_pygame_flow" style="zoom:33%;" />
+<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_03/03_class_diagram.png" alt="03_class_diagram" style="zoom:60%;" />
 
-## Understand the coordinates in the game
+## Making design of the game
 
-The is very similar with what we learned in `curse`, please check it [here](https://cao-weiwei.github.io/posts/Build_a_Snake_Game_in_Python_Day_02/)
+Finally, based on previous analysis and objects we got, I made some UI of the game.
 
-## Keep game ongoing
+<img src="/assets/images/posts/Build_a_Snake_Game_in_Python_Day_03/04_demo-ui.png" alt="04_demo-ui" style="zoom:35%;" />
 
-In order to avoid quiting the game after just starting, usually we'll add a infinite loop in the game. The basic build blocks of making object moving on the screen is as same as what we knew in `curses`library.
-
-Next, we'll dive into the detail of coding in `pygame`.
+Next, we'll jump onto the pygame, which is a most famous game development library in Python.
 
 ---
 

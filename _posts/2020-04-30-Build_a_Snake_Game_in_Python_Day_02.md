@@ -4,7 +4,7 @@ title: Build a snake game in Python Day-2
 date: 2020-04-30 23:30:00 -0400
 published: 2020-04-30 23:30:00 -0400
 comments: true
-tags: [Python, pygame, curses]
+tags: [Python, curses]
 github: "https://github.com/cao-weiwei/"
 noimage: true
 ---
