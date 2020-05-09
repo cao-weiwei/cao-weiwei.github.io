@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "Data Structure - Single Linked List in Python"
+title: Data Structure - Single Linked List in Python
+date: 2020-05-08 23:00:00 -0400
+published: 2020-05-08 23:00:00 -0400
 comments: true
-categories: data structure and algorithms
 tags: [linked list, data structure, algorithm, Python]
 github: "https://github.com/cao-weiwei/"
 noimage: true
@@ -221,7 +222,7 @@ def len_iterative(self):
 
 Before we start the recursive solution, let's look the following diagram that could help us understand the method more specific.
 
-<img src="/assets/images/posts/Single-Linked-List-Python/02_recursion_in_linkedlist.png" style="zoom:80%;" />
+<img src="/assets/images/posts/Single-Linked-List-Python/02_recursion_in_linkedlist.png" style="zoom:60%;" />
 
 For any recursive method, we need a base case. In this class, the base case is whether or not we've encountered the end of the linked list which means the `None` pointer.
 
