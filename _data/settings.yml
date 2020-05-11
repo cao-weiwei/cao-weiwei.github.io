@@ -4,18 +4,19 @@ disqus:
   disqus_shortname: 'weiwei'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-# google-ID: 'UA-91332049-1'
+google-ID: 'UA-166125191-1'
+
 
 menu: 
   - name: Projects
     submenu:
-      - name: SnakeGame
+      - name: Snake_Game
         link: https://github.com/cao-weiwei/Snake_Game_Python
-      - name: SearchEngine
+      - name: Search_Engine
         link: https://github.com/cao-weiwei/WahSearch
-      - name: TwitterSentimentAnaylsis
+      - name: Twitter_Sentiment_Anaylsis
         link: https://github.com/cao-weiwei/SESentimentAnaylsis
-      - name: ChinaTrainTicketsCralwer
+      - name: China_Train_Tickets_Cralwer
         link: https://github.com/cao-weiwei/12306query-tickets
   - name: Posts
     link: /
