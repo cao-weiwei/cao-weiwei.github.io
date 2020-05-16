@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Structure - Search Trie in Python
+title: Data Structure - Trie in Python
 published: 2020-05-15 23:00:00 -0400
 comments: true
 tags: [Search, Trie, String, Data Structure and Algorithm, Python]
@@ -10,11 +10,11 @@ noimage: true
 
 
 
-Todaoy, let's check a data structure named `Trie`. It's also called search trie or prefix trie, which is mainly used to handle string related problems. 
+Today, let’s check a data structure named `Trie`. It’s also called search trie or prefix trie, which is mainly used to handle string related problems. 
 
 <!--more-->
 
-As we known, the balanced binary search tree will give us `O(logN)` time complexity in search/insert/delete, which is efficient. We can use this idea to create a variant of tree, called `Trie`to improve the efficiency of queries in strings, like searching prefix of a word. Trie is very useful in our daily usage of computer like auto complete in search engine.
+As we have known, the balanced binary search tree will give us `O(logN)` time complexity in search/insert/delete, which is efficient. We can use this idea to create a variant of the tree, called `Trie` to improve the efficiency of queries in strings, like searching prefix of a word. `Trie` is very useful in our daily usage of computers like auto-complete in search engines.
 
 <img src="/assets/images/posts/Search Trie/01_Trie.png" alt="01_Trie" style="zoom:50%;" />
 
@@ -22,7 +22,7 @@ For example, for words "apple", "ape", "apply", we will pre-process all the char
 
 <img src="/assets/images/posts/Search Trie/00_trie.png" alt="00_trie" style="zoom:60%;" />
 
-As we can see, even "apple" and "apply" are two words, we only store prefix "appl" once. Same prefix of a string will show only once in a `Trie` and this property will help us:
+As we can see, even "apple" and "apply" are two words, we only store prefix "appl" once. The ame prefix of a string will show only once in a `Trie` and this property will help us:
 
 -  to find common prefix by a given string and 
 - to get all suffix by a given string efficiently.
