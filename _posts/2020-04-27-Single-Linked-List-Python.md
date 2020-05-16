@@ -4,7 +4,7 @@ title: Data Structure - Single Linked List in Python
 date: 2020-05-08 23:00:00 -0400
 published: 2020-05-08 23:00:00 -0400
 comments: true
-tags: [linked list, data structure, algorithm, Python]
+tags: [Linked List, Data Structure and Algorithm, Python]
 github: "https://github.com/cao-weiwei/"
 noimage: true
 ---
