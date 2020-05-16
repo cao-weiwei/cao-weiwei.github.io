@@ -20,7 +20,7 @@ As we known, the balanced binary search tree will give us `O(logN)` time complex
 
 For example, for words "apple", "ape", "apply", we will pre-process all the characters and save each alphabet in a trie node to form a trie as below:
 
-<img src="/assets/images/posts/Search Trie/00_trie.png" alt="00_trie" style="zoom:50%;" />
+<img src="/assets/images/posts/Search Trie/00_trie.png" alt="00_trie" style="zoom:60%;" />
 
 As we can see, even "apple" and "apply" are two words, we only store prefix "appl" once. Same prefix of a string will show only once in a `Trie` and this property will help us:
 
@@ -47,7 +47,7 @@ class TrieNode:
 
 Now let's look at the previous `Trie` in detail, below is what we will create in Python:
 
-<img src="/assets/images/posts/Search Trie/02_trie-detailed.png" alt="02_trie-detailed" style="zoom:60%;" />
+<img src="/assets/images/posts/Search Trie/02_trie-detailed.png" alt="02_trie-detailed" style="zoom:80%;" />
 
 ## Trie
 
@@ -172,6 +172,16 @@ The logic is:
             return _get_keys(prefix, cur_node)
 
 ```
+
+
+
+Here are some references may help you 🤓:
+
+[Trie | (Insert and Search)](https://www.geeksforgeeks.org/trie-insert-and-search/)
+
+[Trie](https://www.interviewcake.com/concept/java/trie)
+
+If you want to assess your understanding of `Trie`, please check this👉[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) 
 
 
 
