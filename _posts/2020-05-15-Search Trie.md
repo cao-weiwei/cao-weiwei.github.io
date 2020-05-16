@@ -177,11 +177,11 @@ The logic is:
 
 Here are some references may help you 🤓:
 
-1. [Trie | Insert and Search](https://www.geeksforgeeks.org/trie-insert-and-search/)
+[Trie | Insert and Search](https://www.geeksforgeeks.org/trie-insert-and-search)
 
-2. [Trie](https://www.interviewcake.com/concept/java/trie)
+[Trie](https://www.interviewcake.com/concept/java/trie)
 
-3. If you want to assess your understanding of `Trie`, please check this👉[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) 
+If you want to assess your understanding of `Trie`, please check this👉[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) 
 
 
 
