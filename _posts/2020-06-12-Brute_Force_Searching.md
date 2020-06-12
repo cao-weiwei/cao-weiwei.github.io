@@ -48,8 +48,9 @@ The `Backtracking` can be broken down into following two parts in pseudocode
 def backtrack(current_path, depth, pool):
   # 0. base case
   if depth reaches the bottom:
-    if current_path is a promising path: solutions.append(current_path)
-		return 
+    if current_path is a promising path: 
+      solutions.append(current_path)
+    return 
   # 1. visiting all nodes in state space tree
   for element in pool:
     if element is not a valid choice: continue
