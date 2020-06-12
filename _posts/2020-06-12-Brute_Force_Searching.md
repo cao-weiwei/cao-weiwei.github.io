@@ -85,7 +85,7 @@ The difference between traditional `DFS` and the above pseudocode is that how to
 
 Another strategy using brute force searching is `Branch and Bound`, which follows `BFS` pattern to find [all possible] candidates of the solution. The logic is similar with `BFS`, we start from the root of state space tree and put that element into a queue to generate next level nodes and exploring breadthwise. The following figure shows an instance that how `BFS` works to get the answer.
 
-<img src="/Users/caoweiwei/Documents/14.Repositories/0_Github/cao-weiwei.github.io/assets/images/posts/Brute_Force_Searching/02_branch_and_bound.png" style="zoom:50%;" />
+<img src="/assets/images/posts/Brute_Force_Searching/02_branch_and_bound.png" style="zoom:50%;" />
 
 This method is often used to find a possible shortest path, and what modifications are needed is the bounding functions. If you want to assess your understanding,  please check this👉:
 
