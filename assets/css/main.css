@@ -34,7 +34,8 @@ h3:before {
 }
 
 .jumbotron {
-	background: #719d7d;
+	/* background: #719d7d; */
+	background: #2196f3;
 }
 
 .jumbotron h1 {
