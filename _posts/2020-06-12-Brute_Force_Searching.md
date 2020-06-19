@@ -3,22 +3,22 @@ layout: default
 title: Algorithms - Brute Force Searching
 published: 2020-06-12 13:00:00 -0400
 comments: true
-tags: [Search, Brute Force, Backtracking, DFS, Branch and Bound, BFS]
+tags: [Search, Brute Force, Backtracking, DFS, Branch and Bound, BFS, Data Structure and Algorithm]
 github: "https://github.com/cao-weiwei/"
 noimage: true
 ---
 
 
 
-<u>`Brute Force Searching`</u> strategy is a useful problem-solving approach that *systematically enumerates* *all possible candidates* for the solution and then selecting the proper candidates as the result set. <!--more-->
+`Brute Force Searching` strategy is a useful problem-solving approach that *systematically enumerates* *all possible candidates* for the solution and then selecting the proper candidates as the result set. <!--more-->
 
 ## Introduction
 
-It is usually used to *search* all possible results for a specific problem, and if there are *overlapping* subproblems, <u>`Greedy`</u> or <u>`Dynamic Programming`</u> skills can be applied based on the brute force process to get optimal solutions.
+It is usually used to *search* all possible results for a specific problem, and if there are *overlapping* subproblems, `Greedy` or `Dynamic Programming` skills can be applied based on the brute force process to get optimal solutions.
 
-<u>`Backtracking`</u> and <u>`Branch and Bound`</u> are two strategies for applying the Brute Force Searching approach to find all the solutions. Those two methods are also as known as *`DFS`* and *`BFS`* strategy separately. 
+`Backtracking` and `Branch and Bound` are two strategies for applying the Brute Force Searching approach to find all the solutions. Those two methods are also as known as *`DFS`* and *`BFS`* strategy separately. 
 
-Before we dive into more details of them, let’s familiar with two useful techniques for utilizing those strategies. The first thing is called <u>`State Space Tree`</u>, which can represent all possible solutions using a tree structure in which successive states of an instance are considered. The second is <u>`Bounding Function`</u>, it is nothing but conditions to terminate invalid nodes in the tree so that the desired candidates are selected for goals and killing unnecessary branches of the tree to save time.
+Before we dive into more details of them, let’s familiar with two useful techniques for utilizing those strategies. The first thing is called `State Space Tree`, which can represent all possible solutions using a tree structure in which successive states of an instance are considered. The second is `Bounding Function`, it is nothing but conditions to terminate invalid nodes in the tree so that the desired candidates are selected for goals and killing unnecessary branches of the tree to save time.
 
 ## Backtracking
 
